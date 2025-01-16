@@ -16,12 +16,14 @@ public class App {
 
         Cat cat = new Cat();
         output("Blick von außen: " + cat);
+        cat.getInstanceVariable();
+
 
         output("---------------------");
 
         Cat cat2 = new Cat();
         output("Blick von außen: " + cat2);
-
+        cat2.getInstanceVariable();
       
 
     }

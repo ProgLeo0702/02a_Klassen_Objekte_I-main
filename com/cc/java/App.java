@@ -17,6 +17,7 @@ public class App {
         Cat cat = new Cat();
         output("Blick von außen: " + cat);
         cat.getInstanceVariable();
+        output("Blick von innen: " + cat.getInstanceVariable());
 
 
         output("---------------------");
@@ -24,7 +25,7 @@ public class App {
         Cat cat2 = new Cat();
         output("Blick von außen: " + cat2);
         cat2.getInstanceVariable();
-      
+        output("Blick von innen: " + cat2.getInstanceVariable());
 
     }
   
